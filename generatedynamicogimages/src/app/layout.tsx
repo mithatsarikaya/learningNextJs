@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://generatedynamicogimage.vercel.app/"),
   title: "trying dynamic og images",
   description: "share some content",
 };

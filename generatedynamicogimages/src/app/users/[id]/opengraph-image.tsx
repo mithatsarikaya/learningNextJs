@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getUserByID } from "@/lib/userFunctions";
-export const runtime = "edge";
 
+export const runtime = "edge";
 export const alt = "About Acme";
 export const size = {
   width: 1200,
